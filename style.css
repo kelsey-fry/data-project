@@ -1,7 +1,6 @@
+/* Simple black navbar with Washington Post logo */
 .navbar {
 background-color: #000000;
-/* padding-bottom: 10px; */
-/* padding: 5px; */
 padding-left: 20px;
 padding-top: -5px;
 }
@@ -13,24 +12,25 @@ font-size: 46;
 color: #2a2a2a;}
 
 
-
+/* Styling for the Washington Post section name that this article would belong to */
 .section-name {
 font-family: 'Roboto', sans-serif;
 font-size: 16;
 color: #2e6d9d;
-/* border-top: solid #eeeeee 2px; */
 padding-top: 20px;
 }
 
+/* Removes underlining of link */
 .section-name:hover{
     text-decoration: none;
 }
 
+/* Styling for the title of the article */
 .title {
 padding-bottom: 20px;
-/* border-bottom: solid #eeeeee 2px; */
 }
 
+/* Styling for the entire group of social media icons listed */
 .social-media {
 padding-bottom: 20px;
 border-bottom: solid #eeeeee 2px;
@@ -41,6 +41,7 @@ margin-left: 10px;
 margin-left: -7px;
 }
 
+/* Styling for each individual social media icon */
 .facebook {
 background-color: #3b5998;
 }
@@ -81,6 +82,7 @@ background-color: #b3b3b3;
 background-color: #c6c6c6;
 }
 
+/* Styling for the font-awesome icons used in social media icon group */
 .soc-color{
 padding-top: 5px;
 padding-bottom: 5px;
@@ -112,14 +114,7 @@ margin-left: 5px;
 margin-right: 5px;
 }
 
+
 .email-author {
 color: #2e6d9d;
 }
-
-
-
-
-/* .facebook:hover, .twitter:hover, .googleplus:hover, .email:hover, .extra:hover{
-background-color: #000000;
-background-color: #4467b0;
-} */
